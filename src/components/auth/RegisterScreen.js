@@ -40,7 +40,7 @@ export const RegisterScreen = () => {
     <>
       <h3 className="auth__title">Register</h3>
       <form onSubmit={handleRegister}>
-        <div className="auth__alert-error">Alert messagge TEST</div>
+        <div className="auth__alert-error">Alert message TEST</div>
         <input
           autoComplete="off"
           className="auth__input"

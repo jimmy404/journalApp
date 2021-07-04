@@ -19,7 +19,7 @@ const dispatch = useDispatch();
 
   return (
     <div
-      className="journal__entry pointer"
+      className="journal__entry pointer animate__animated animate__fadeIn animate__faster"
       onClick={handleEntryClick}
     >
       {

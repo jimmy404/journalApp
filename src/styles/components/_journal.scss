@@ -41,6 +41,7 @@
   margin-top: 30px;
   flex: 1 1 auto;
   overflow-y: scroll;
+  padding-right: 5px;
 }
 
 .journal__entry {
@@ -48,6 +49,7 @@
   border-radius: 4px;
   color: $dark-grey;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 10px;
   overflow: hidden;
 }

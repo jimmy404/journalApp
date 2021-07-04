@@ -56,8 +56,8 @@ export const NoteScreen = () => {
               className="notes__image"
             >
               <img
-                src="https://images.freeimages.com/images/large-previews/0b3/burning-tree-1377053.jpg"
-                alt="Heaven sun"
+                src={note.url}
+                alt="User uploaded file"
               />
             </div>
           )
